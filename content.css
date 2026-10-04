@@ -1,0 +1,30 @@
+/* Preserve native controls and layout; remove their hover-only opacity.
+   These properties also apply to rows added during YouTube Music navigation. */
+html:not([data-bm-hide-ratings]) ytmusic-like-button-renderer {
+  --ytmusic-like-button-renderer-like-opacity: 1 !important;
+  --ytmusic-like-button-renderer-dislike-opacity: 1 !important;
+}
+
+/* Stacked song rows and queue items collapse the menu until hovered.
+   Reserve its native width only when it contains rating controls. */
+html:not([data-bm-hide-ratings]) ytmusic-responsive-list-item-renderer[stack-flex-columns] .menu:has(ytmusic-like-button-renderer),
+html:not([data-bm-hide-ratings]) ytmusic-player-queue-item .menu:has(ytmusic-like-button-renderer) {
+  flex: 0 0 auto !important;
+  overflow: visible !important;
+}
+
+/* Keep the playlist "Find on page" bar under the nav while results scroll. */
+html[data-bm-pin-filter-search] ytmusic-playlist-shelf-renderer[show-filter-search] ytmusic-playlist-filter-search-shelf,
+html[data-bm-pin-filter-search] ytmusic-playlist-shelf-renderer[show-filter-search] .ytmusicPlaylistFilterSearchShelfHost {
+  overflow: visible !important;
+}
+html[data-bm-pin-filter-search] ytmusic-playlist-shelf-renderer[show-filter-search] #filter-search-bar-container,
+html[data-bm-pin-filter-search] ytmusic-playlist-shelf-renderer[show-filter-search] .ytmusicPlaylistFilterSearchShelfFilterSearchBarContainer {
+  position: sticky !important;
+  top: var(--ytmusic-nav-bar-height, 64px) !important;
+  z-index: 4 !important;
+  background: var(--ytmusic-brand-background-solid, var(--ytmusic-color-black1, #030303)) !important;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,119 @@
+{
+  "extensionName": {
+    "message": "[B.M] YouTube Music ツールボックス"
+  },
+  "extensionDescription": {
+    "message": "YouTube / YouTube Music（www.youtube.com, music.youtube.com）向けのブラウザー拡張機能ツールボックス"
+  },
+  "popupSubtitle": {
+    "message": "YouTube / YouTube Music（www.youtube.com, music.youtube.com）向けのブラウザー拡張機能ツールボックス"
+  },
+  "alwaysShowTitle": {
+    "message": "評価ボタンを常に表示"
+  },
+  "alwaysShowDesc": {
+    "message": "曲にマウスを重ねずに評価できます。"
+  },
+  "pinFilterSearchTitle": {
+    "message": "「このページで検索」を固定"
+  },
+  "pinFilterSearchDesc": {
+    "message": "検索を開いている間、検索バーを上部ナビの下に固定します。"
+  },
+  "openMusic": {
+    "message": "YouTube Music を開く"
+  },
+  "saved": {
+    "message": "設定を保存して適用しました。"
+  },
+  "settingsError": {
+    "message": "設定を読み込み・保存できません。パネルを開き直してください。"
+  },
+  "playlistTools": {
+    "message": "プレイリストツール"
+  },
+  "sortAuthor": {
+    "message": "投稿者順に並べ替え"
+  },
+  "sortDate": {
+    "message": "アップロード日順に並べ替え"
+  },
+  "likeAll": {
+    "message": "未評価の曲を高評価"
+  },
+  "copyPlaylist": {
+    "message": "プレイリストをコピー"
+  },
+  "exportCache": {
+    "message": "スキャンキャッシュをエクスポート"
+  },
+  "authorDescription": {
+    "message": "チャンネルの初出順にグループ化し、各グループをアップロード日の古い順に並べ替えます。後から出た重複曲は削除します。"
+  },
+  "dateDescription": {
+    "message": "全曲をアップロード日の古い順に並べ替えます。同日の曲は相対的な順序を維持し、後から出た重複曲は削除します。"
+  },
+  "likeDescription": {
+    "message": "未評価の曲を高評価に設定します。高評価・低評価済みの曲と評価状態が不明な曲はスキップします。"
+  },
+  "copyDescription": {
+    "message": "現在のプレイリストの非公開コピーを作成します。"
+  },
+  "cacheDescription": {
+    "message": "進捗はページに表示されます。キャッシュはプレイリストごとに保存され、追加曲を差分スキャンします。"
+  },
+  "openPlaylistPrompt": {
+    "message": "YouTube / YouTube Music のプレイリストページを開いてください。"
+  },
+  "panelOpened": {
+    "message": "操作パネルを開きました。進捗はページに表示されます。"
+  },
+  "exportOpened": {
+    "message": "保存ダイアログを開きました。"
+  },
+  "stopAction": {
+    "message": "停止"
+  },
+  "startAction": {
+    "message": "開始／再開"
+  },
+  "openCopy": {
+    "message": "コピーしたプレイリストを開く"
+  },
+  "copySuffix": {
+    "message": " — コピー"
+  },
+  "playlistName": {
+    "message": "プレイリスト"
+  },
+  "copySource": {
+    "message": "コピー元："
+  },
+  "preparing": {
+    "message": "準備中 0/0"
+  },
+  "closePanel": {
+    "message": "閉じる"
+  },
+  "closingPanel": {
+    "message": "停止中です。現在のリクエストが終了すると閉じます。"
+  },
+  "panelFinished": {
+    "message": "このパネルを閉じられます。再度操作する場合はツールボックスから開いてください。"
+  },
+  "musicOnlyLike": {
+    "message": "一括高評価は YouTube Music のみ対応しています。"
+  },
+  "platformSupport": {
+    "message": "YouTube はプレイリストのコピーと2種類の並べ替えに対応しています。評価機能は YouTube Music のみ対応しています。"
+  },
+  "unknownRatingTitle": {
+    "message": "評価状態が不明な曲"
+  },
+  "unknownRatingHint": {
+    "message": "曲を開いて評価を確認してください。再生できない曲はスキップできます。"
+  },
+  "unknownRatingExport": {
+    "message": "評価の診断情報をダウンロード"
+  }
+}

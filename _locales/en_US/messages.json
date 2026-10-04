@@ -1,0 +1,119 @@
+{
+  "extensionName": {
+    "message": "[B.M] YouTube Music Toolbox"
+  },
+  "extensionDescription": {
+    "message": "A browser extension toolbox for YouTube / YouTube Music (www.youtube.com, music.youtube.com)."
+  },
+  "popupSubtitle": {
+    "message": "A browser extension toolbox for YouTube / YouTube Music (www.youtube.com, music.youtube.com)."
+  },
+  "alwaysShowTitle": {
+    "message": "Always show rating buttons"
+  },
+  "alwaysShowDesc": {
+    "message": "Like or dislike songs without hovering over a row."
+  },
+  "pinFilterSearchTitle": {
+    "message": "Pin “Find on page” bar"
+  },
+  "pinFilterSearchDesc": {
+    "message": "While find is open, keep the search bar under the top navigation."
+  },
+  "openMusic": {
+    "message": "Open YouTube Music"
+  },
+  "saved": {
+    "message": "Settings saved and applied."
+  },
+  "settingsError": {
+    "message": "Could not load or save settings. Reopen this panel."
+  },
+  "playlistTools": {
+    "message": "Playlist tools"
+  },
+  "sortAuthor": {
+    "message": "Sort by creator"
+  },
+  "sortDate": {
+    "message": "Sort by upload date"
+  },
+  "likeAll": {
+    "message": "Like unrated songs"
+  },
+  "copyPlaylist": {
+    "message": "Copy playlist"
+  },
+  "exportCache": {
+    "message": "Export scan cache"
+  },
+  "authorDescription": {
+    "message": "Group by each channel’s first appearance, then order each group by upload date, oldest first. Later duplicate songs are removed."
+  },
+  "dateDescription": {
+    "message": "Order all songs by upload date, oldest first. Songs with the same date retain their relative order. Later duplicate songs are removed."
+  },
+  "likeDescription": {
+    "message": "Like unrated songs. Skip liked, disliked, and unknown rating states."
+  },
+  "copyDescription": {
+    "message": "Create a private copy of the current playlist."
+  },
+  "cacheDescription": {
+    "message": "Progress appears on the page. Each playlist has its own cache; incremental scans retrieve new songs."
+  },
+  "openPlaylistPrompt": {
+    "message": "Open a YouTube / YouTube Music playlist page."
+  },
+  "panelOpened": {
+    "message": "The action panel is open. Progress appears on the page."
+  },
+  "exportOpened": {
+    "message": "The Save As dialog is open."
+  },
+  "stopAction": {
+    "message": "Stop"
+  },
+  "startAction": {
+    "message": "Start / Resume"
+  },
+  "openCopy": {
+    "message": "Open copied playlist"
+  },
+  "copySuffix": {
+    "message": " — Copy"
+  },
+  "playlistName": {
+    "message": "Playlist"
+  },
+  "copySource": {
+    "message": "Source: "
+  },
+  "preparing": {
+    "message": "Preparing 0/0"
+  },
+  "closePanel": {
+    "message": "Close"
+  },
+  "closingPanel": {
+    "message": "Stopping. The panel will close after the current request."
+  },
+  "panelFinished": {
+    "message": "You can close this panel. Open it from the toolbox for another action."
+  },
+  "musicOnlyLike": {
+    "message": "Bulk liking is available on YouTube Music only."
+  },
+  "platformSupport": {
+    "message": "YouTube supports playlist copying and both sort modes. Rating features are available on YouTube Music only."
+  },
+  "unknownRatingTitle": {
+    "message": "Songs with unknown ratings"
+  },
+  "unknownRatingHint": {
+    "message": "Open a song to check its rating. Unavailable tracks can be skipped."
+  },
+  "unknownRatingExport": {
+    "message": "Download rating diagnostics"
+  }
+}

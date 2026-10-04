@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouTube Music 工具箱</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="header"><img class="header-icon" src="icons/icon.png" width="40" height="40" alt=""><div>
+    <h1 class="header-title" data-i18n="extensionName"></h1>
+    <p class="header-sub" data-i18n="popupSubtitle"></p>
+  </div></header>
+  <main class="cards">
+    <label class="card">
+      <span class="card-copy"><span class="card-title" data-i18n="alwaysShowTitle"></span><span class="card-desc" data-i18n="alwaysShowDesc"></span></span>
+      <span class="switch"><input id="alwaysShow" type="checkbox" role="switch" disabled><span class="switch-track" aria-hidden="true"></span></span>
+    </label>
+    <label class="card">
+      <span class="card-copy"><span class="card-title" data-i18n="pinFilterSearchTitle"></span><span class="card-desc" data-i18n="pinFilterSearchDesc"></span></span>
+      <span class="switch"><input id="pinFilterSearch" type="checkbox" role="switch" disabled><span class="switch-track" aria-hidden="true"></span></span>
+    </label>
+  </main>
+  <section class="sort-section">
+    <h2 class="group-title" data-i18n="playlistTools"></h2>
+    <p class="card-desc" data-i18n="authorDescription"></p>
+    <p class="card-desc" data-i18n="dateDescription"></p>
+    <button id="sortPlaylist" class="footer-link" type="button" data-i18n="sortAuthor"></button>
+    <button id="sortPlaylistByDate" class="footer-link" type="button" data-i18n="sortDate"></button>
+    <button id="likePlaylist" class="footer-link" type="button" data-i18n="likeAll"></button>
+    <button id="copyPlaylist" class="footer-link" type="button" data-i18n="copyPlaylist"></button>
+    <button id="exportSortCache" class="footer-link" type="button" data-i18n="exportCache"></button>
+    <p class="card-desc" data-i18n="cacheDescription"></p>
+    <p class="card-desc" data-i18n="likeDescription"></p>
+    <p class="card-desc" data-i18n="copyDescription"></p>
+    <p class="card-desc" data-i18n="platformSupport"></p>
+  </section>
+  <footer class="footer"><a class="footer-link" href="https://music.youtube.com/" target="_blank" rel="noopener" data-i18n="openMusic"></a><p id="status" role="status"></p></footer>
+  <script src="popup.js"></script>
+  <script src="src/feature-playlist-sort.js"></script>
+</body>
+</html>

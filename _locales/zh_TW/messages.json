@@ -1,0 +1,119 @@
+{
+  "extensionName": {
+    "message": "[B.M] YouTube Music 工具箱"
+  },
+  "extensionDescription": {
+    "message": "適用於 YouTube / YouTube Music（www.youtube.com, music.youtube.com）的瀏覽器擴充功能工具箱"
+  },
+  "popupSubtitle": {
+    "message": "適用於 YouTube / YouTube Music（www.youtube.com, music.youtube.com）的瀏覽器擴充功能工具箱"
+  },
+  "alwaysShowTitle": {
+    "message": "常駐顯示評價按鈕"
+  },
+  "alwaysShowDesc": {
+    "message": "不用移入歌曲列，就能按喜歡或不喜歡。"
+  },
+  "pinFilterSearchTitle": {
+    "message": "固定「在本頁尋找」列"
+  },
+  "pinFilterSearchDesc": {
+    "message": "展開尋找時，將搜尋列固定在頁面頂部（導覽列下方）。"
+  },
+  "openMusic": {
+    "message": "開啟 YouTube Music"
+  },
+  "saved": {
+    "message": "設定已儲存並套用。"
+  },
+  "settingsError": {
+    "message": "無法讀取或儲存設定，請重新開啟面板。"
+  },
+  "playlistTools": {
+    "message": "播放清單工具"
+  },
+  "sortAuthor": {
+    "message": "依作者排序"
+  },
+  "sortDate": {
+    "message": "依上傳日期排序"
+  },
+  "likeAll": {
+    "message": "一鍵喜歡"
+  },
+  "copyPlaylist": {
+    "message": "複製該清單"
+  },
+  "exportCache": {
+    "message": "匯出掃描快取"
+  },
+  "authorDescription": {
+    "message": "依頻道首次出現順序分組，各組依上傳日期由舊到新排列；並移除較晚出現的重複歌曲。"
+  },
+  "dateDescription": {
+    "message": "全曲依上傳日期由舊到新排列，同日歌曲維持相對順序；並移除較晚出現的重複歌曲。"
+  },
+  "likeDescription": {
+    "message": "將尚未評價的歌曲設為喜歡，跳過已喜歡、已不喜歡及狀態不明的歌曲。"
+  },
+  "copyDescription": {
+    "message": "建立目前播放清單的私人副本。"
+  },
+  "cacheDescription": {
+    "message": "網頁顯示處理進度。各清單分別儲存快取，增量掃描新增歌曲。"
+  },
+  "openPlaylistPrompt": {
+    "message": "請開啟 YouTube / YouTube Music 播放清單頁面。"
+  },
+  "panelOpened": {
+    "message": "處理面板已開啟，進度顯示於網頁。"
+  },
+  "exportOpened": {
+    "message": "另存視窗已開啟。"
+  },
+  "stopAction": {
+    "message": "停止"
+  },
+  "startAction": {
+    "message": "開始／接續"
+  },
+  "openCopy": {
+    "message": "開啟複製的清單"
+  },
+  "copySuffix": {
+    "message": " — 副本"
+  },
+  "playlistName": {
+    "message": "播放清單"
+  },
+  "copySource": {
+    "message": "來源："
+  },
+  "preparing": {
+    "message": "準備中 0/0"
+  },
+  "closePanel": {
+    "message": "關閉"
+  },
+  "closingPanel": {
+    "message": "正在停止，完成目前請求後關閉。"
+  },
+  "panelFinished": {
+    "message": "可關閉此視窗；再次操作時從工具箱開啟。"
+  },
+  "musicOnlyLike": {
+    "message": "一鍵喜歡僅支援 YouTube Music。"
+  },
+  "platformSupport": {
+    "message": "YouTube 支援複製清單及兩種排序；評價功能僅支援 YouTube Music。"
+  },
+  "unknownRatingTitle": {
+    "message": "狀態不明的歌曲"
+  },
+  "unknownRatingHint": {
+    "message": "開啟歌曲查看評價；無法播放的項目可略過。"
+  },
+  "unknownRatingExport": {
+    "message": "下載評價診斷"
+  }
+}

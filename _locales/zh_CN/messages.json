@@ -1,0 +1,119 @@
+{
+  "extensionName": {
+    "message": "[B.M] YouTube Music 工具箱"
+  },
+  "extensionDescription": {
+    "message": "适用于 YouTube / YouTube Music（www.youtube.com, music.youtube.com）的浏览器扩展工具箱"
+  },
+  "popupSubtitle": {
+    "message": "适用于 YouTube / YouTube Music（www.youtube.com, music.youtube.com）的浏览器扩展工具箱"
+  },
+  "alwaysShowTitle": {
+    "message": "始终显示评价按钮"
+  },
+  "alwaysShowDesc": {
+    "message": "不用移入歌曲行，就能点喜欢或不喜欢。"
+  },
+  "pinFilterSearchTitle": {
+    "message": "固定“在本页查找”栏"
+  },
+  "pinFilterSearchDesc": {
+    "message": "展开查找时，将搜索栏固定在页面顶部（导航栏下方）。"
+  },
+  "openMusic": {
+    "message": "打开 YouTube Music"
+  },
+  "saved": {
+    "message": "设置已保存并应用。"
+  },
+  "settingsError": {
+    "message": "无法读取或保存设置，请重新打开面板。"
+  },
+  "playlistTools": {
+    "message": "播放列表工具"
+  },
+  "sortAuthor": {
+    "message": "按作者排序"
+  },
+  "sortDate": {
+    "message": "按上传日期排序"
+  },
+  "likeAll": {
+    "message": "一键喜欢"
+  },
+  "copyPlaylist": {
+    "message": "复制该列表"
+  },
+  "exportCache": {
+    "message": "导出扫描缓存"
+  },
+  "authorDescription": {
+    "message": "按频道首次出现顺序分组，各组按上传日期从旧到新排列；并移除较晚出现的重复歌曲。"
+  },
+  "dateDescription": {
+    "message": "全部歌曲按上传日期从旧到新排列，同日歌曲保持相对顺序；并移除较晚出现的重复歌曲。"
+  },
+  "likeDescription": {
+    "message": "将尚未评价的歌曲设为喜欢，跳过已喜欢、已不喜欢及状态不明的歌曲。"
+  },
+  "copyDescription": {
+    "message": "创建当前播放列表的私人副本。"
+  },
+  "cacheDescription": {
+    "message": "网页显示处理进度。各列表分别保存缓存，增量扫描新增歌曲。"
+  },
+  "openPlaylistPrompt": {
+    "message": "请打开 YouTube / YouTube Music 播放列表页面。"
+  },
+  "panelOpened": {
+    "message": "处理面板已打开，进度显示在网页上。"
+  },
+  "exportOpened": {
+    "message": "另存窗口已打开。"
+  },
+  "stopAction": {
+    "message": "停止"
+  },
+  "startAction": {
+    "message": "开始／继续"
+  },
+  "openCopy": {
+    "message": "打开复制的列表"
+  },
+  "copySuffix": {
+    "message": " — 副本"
+  },
+  "playlistName": {
+    "message": "播放列表"
+  },
+  "copySource": {
+    "message": "来源："
+  },
+  "preparing": {
+    "message": "准备中 0/0"
+  },
+  "closePanel": {
+    "message": "关闭"
+  },
+  "closingPanel": {
+    "message": "正在停止，完成当前请求后关闭。"
+  },
+  "panelFinished": {
+    "message": "可关闭此窗口；再次操作时从工具箱打开。"
+  },
+  "musicOnlyLike": {
+    "message": "一键喜欢仅支持 YouTube Music。"
+  },
+  "platformSupport": {
+    "message": "YouTube 支持复制列表及两种排序；评价功能仅支持 YouTube Music。"
+  },
+  "unknownRatingTitle": {
+    "message": "状态不明的歌曲"
+  },
+  "unknownRatingHint": {
+    "message": "打开歌曲查看评价；无法播放的项目可略过。"
+  },
+  "unknownRatingExport": {
+    "message": "下载评价诊断"
+  }
+}
