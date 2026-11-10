@@ -15,10 +15,16 @@
     "message": "不用移入歌曲列，就能按喜歡或不喜歡。"
   },
   "pinFilterSearchTitle": {
-    "message": "固定「在本頁尋找」列"
+    "message": "自動展開並固定「在本頁尋找」列"
   },
   "pinFilterSearchDesc": {
-    "message": "展開尋找時，將搜尋列固定在頁面頂部（導覽列下方）。"
+    "message": "開啟後，播放清單頁會自動展開搜尋列並固定在導覽列下方。"
+  },
+  "volumeStep5Title": {
+    "message": "音量 5% 刻度"
+  },
+  "volumeStep5Desc": {
+    "message": "使用播放器原生 ←／→ 音量快捷鍵時，調整至下一個 5% 刻度。"
   },
   "openMusic": {
     "message": "開啟 YouTube Music"

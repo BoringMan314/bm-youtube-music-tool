@@ -4,7 +4,7 @@ document.querySelectorAll('[data-i18n]').forEach(element => {
   element.textContent = chrome.i18n.getMessage(element.dataset.i18n);
 });
 document.title = chrome.i18n.getMessage('extensionName');
-const defaults = { alwaysShow: true, pinFilterSearch: true };
+const defaults = { alwaysShow: true, pinFilterSearch: true, volumeStep5: true };
 const status = document.getElementById('status');
 async function init() {
   try {

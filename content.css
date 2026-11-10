@@ -13,18 +13,15 @@ html:not([data-bm-hide-ratings]) ytmusic-player-queue-item .menu:has(ytmusic-lik
   overflow: visible !important;
 }
 
-/* Keep the playlist "Find on page" bar under the nav while results scroll. */
-html[data-bm-pin-filter-search] ytmusic-playlist-shelf-renderer[show-filter-search] ytmusic-playlist-filter-search-shelf,
-html[data-bm-pin-filter-search] ytmusic-playlist-shelf-renderer[show-filter-search] .ytmusicPlaylistFilterSearchShelfHost {
-  overflow: visible !important;
-}
-html[data-bm-pin-filter-search] ytmusic-playlist-shelf-renderer[show-filter-search] #filter-search-bar-container,
-html[data-bm-pin-filter-search] ytmusic-playlist-shelf-renderer[show-filter-search] .ytmusicPlaylistFilterSearchShelfFilterSearchBarContainer {
-  position: sticky !important;
-  top: var(--ytmusic-nav-bar-height, 64px) !important;
-  z-index: 4 !important;
-  background: var(--ytmusic-brand-background-solid, var(--ytmusic-color-black1, #030303)) !important;
-  padding-top: 8px;
-  padding-bottom: 8px;
+/* Place the native playlist search directly below the global search, with matching width. */
+html[data-bm-pin-filter-search][data-bm-filter-search-fixed] ytmusic-playlist-shelf-renderer[show-filter-search] #filter-search-bar-container,
+html[data-bm-pin-filter-search][data-bm-filter-search-fixed] ytmusic-playlist-shelf-renderer[show-filter-search] .ytmusicPlaylistFilterSearchShelfFilterSearchBarContainer {
+  position: fixed !important;
+  top: var(--bm-filter-search-top, 49px) !important;
+  left: var(--bm-filter-search-left) !important;
+  width: var(--bm-filter-search-width) !important;
+  z-index: 1000 !important;
+  background-color: var(--bm-filter-search-background, #303030) !important;
+  border-radius: var(--bm-filter-search-radius, 8px) !important;
   box-sizing: border-box;
 }

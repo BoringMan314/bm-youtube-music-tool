@@ -15,10 +15,16 @@
     "message": "不用移入歌曲行，就能点喜欢或不喜欢。"
   },
   "pinFilterSearchTitle": {
-    "message": "固定“在本页查找”栏"
+    "message": "自动展开并固定“在本页查找”栏"
   },
   "pinFilterSearchDesc": {
-    "message": "展开查找时，将搜索栏固定在页面顶部（导航栏下方）。"
+    "message": "开启后，播放列表页会自动展开搜索栏并固定在导航栏下方。"
+  },
+  "volumeStep5Title": {
+    "message": "音量 5% 刻度"
+  },
+  "volumeStep5Desc": {
+    "message": "使用播放器原生 ←／→ 音量快捷键时，调整至下一个 5% 刻度。"
   },
   "openMusic": {
     "message": "打开 YouTube Music"

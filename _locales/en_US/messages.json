@@ -15,10 +15,16 @@
     "message": "Like or dislike songs without hovering over a row."
   },
   "pinFilterSearchTitle": {
-    "message": "Pin “Find on page” bar"
+    "message": "Show and pin “Find on page” bar"
   },
   "pinFilterSearchDesc": {
-    "message": "While find is open, keep the search bar under the top navigation."
+    "message": "Automatically open the playlist search bar and keep it under the top navigation."
+  },
+  "volumeStep5Title": {
+    "message": "5% volume steps"
+  },
+  "volumeStep5Desc": {
+    "message": "Snap native ←/→ volume shortcuts to 5% steps."
   },
   "openMusic": {
     "message": "Open YouTube Music"

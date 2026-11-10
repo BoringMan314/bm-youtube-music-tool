@@ -15,10 +15,16 @@
     "message": "曲にマウスを重ねずに評価できます。"
   },
   "pinFilterSearchTitle": {
-    "message": "「このページで検索」を固定"
+    "message": "「このページで検索」を自動表示して固定"
   },
   "pinFilterSearchDesc": {
-    "message": "検索を開いている間、検索バーを上部ナビの下に固定します。"
+    "message": "有効にすると、プレイリストの検索バーを自動表示し、上部ナビの下に固定します。"
+  },
+  "volumeStep5Title": {
+    "message": "音量 5% 刻み"
+  },
+  "volumeStep5Desc": {
+    "message": "プレーヤーの ←／→ 音量ショートカットを 5% 刻みに調整します。"
   },
   "openMusic": {
     "message": "YouTube Music を開く"

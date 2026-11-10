@@ -32,6 +32,23 @@
         "src/feature-rating-buttons.js"
       ],
       "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://music.youtube.com/*"
+      ],
+      "js": ["src/feature-volume-step5.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": [
+        "https://music.youtube.com/*"
+      ],
+      "js": ["src/injected-volume-step5.js"],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": true
     }
   ]
 }
